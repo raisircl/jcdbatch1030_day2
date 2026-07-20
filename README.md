@@ -3,6 +3,17 @@ day 2 class of python
 1. Create the repo
 2. copy the repo url
 3. clone the repo in local pc
+4. open the folder in vscode
+5. open the terminal of vscode - make sure terminal is cmd
+6. create virtual enviornament
+    command : py -m venv virtual_env_name
+7. active the virtual enviormennt 
+   command: .\your_venv_name\scripts\activate
+8. how to make sure virtual enviorment activated
+   we will see like this in terminal
+   (venev_name) d:\path>
+   
+
 some important commands of git
 git checkout - check the branch
 git checkout branch_name - to change or create the branch
