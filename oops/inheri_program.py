@@ -1,5 +1,6 @@
-from rect import Rectangle
+from square import Square
 
-r1 = Rectangle(5, 3)
+s1 = Square(5)
 
-print(f"Length: {r1.length}, Breadth: {r1.breadth}, Area: {r1.area()}, Perimeter: {r1.perimeter()}")
+print(f"Side: {s1.side}, Area: {s1.area()}, Perimeter: {s1.perimeter()}")
+

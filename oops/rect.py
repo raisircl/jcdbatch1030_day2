@@ -7,4 +7,5 @@ class Rectangle(Quadilateral): # parent class is Quadilateral its constructor is
         self.breadth = breadth
 
     def area(self):
+        print("I am area of Rectangle")
         return self.length * self.breadth
