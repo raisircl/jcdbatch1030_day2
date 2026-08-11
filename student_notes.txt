@@ -1,0 +1,3 @@
+Python File Handling Lecture
+Student learned how to create a file.
+This data is saved permanently.

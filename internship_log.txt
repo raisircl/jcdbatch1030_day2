@@ -1,0 +1,5 @@
+
+Day 2: Practiced read and append mode.
+Day 3: Practiced CSV basics.
+Day 4: File Handling
+Day 5: Practiced CSV basics editing.
