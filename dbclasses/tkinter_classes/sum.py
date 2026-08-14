@@ -1,6 +1,6 @@
 import tkinter as tk
 
-def btnsum_click():
+def btn_click():
     n1=int(txtn1.get())
     n2=int(txtn2.get())
     sum=n1+n2
@@ -21,7 +21,7 @@ lbln2.grid(row=1,column=0,padx=10,pady=10)
 txtn2=tk.Entry(window,width=30)
 txtn2.grid(row=1,column=1,padx=10,pady=10)
 
-btnsum=tk.Button(window,text="Calculate Sum",command=btnsum_click)
+btnsum=tk.Button(window,text="Calculate",command=btn_click)
 btnsum.grid(row=2,column=0,padx=10,pady=10)
 
 lblresult=tk.Label(window,text="Result will be displayed here")
