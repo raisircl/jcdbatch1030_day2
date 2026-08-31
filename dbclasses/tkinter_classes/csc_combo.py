@@ -4,11 +4,15 @@ from tkinter import ttk, messagebox
 # ============================================================
 # COUNTRY DATA
 # ============================================================
+def get_countries():
+    # get data from countries table in database
+    countries = [
+        {"id": 1, "name": "India"},
+        {"id": 2, "name": "USA"}
+    ]
+    return countries
 
-countries = [
-    {"id": 1, "name": "India"},
-    {"id": 2, "name": "USA"}
-]
+
 
 
 # ============================================================
@@ -473,7 +477,7 @@ country_combo.grid(
 
 country_names = []
 
-for country in countries:
+for country in get_countries():
 
     country_names.append(country["name"])
 
